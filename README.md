@@ -16,6 +16,7 @@ this is my project called AUTCOMPOST - smart composting bin , i was awarded with
 ---
 
 ##🛠️ Hardware Components| Component | Function |
+
 | --- | --- |
 | **ESP32 DevKit V1** | Main Microcontroller (The Brain) |
 | **BTS7960** | High-Current H-Bridge Motor Driver (43A) |
