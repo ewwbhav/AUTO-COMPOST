@@ -58,23 +58,8 @@ this is my project called AUTCOMPOST - smart composting bin , i was awarded with
 
 
 * **Advantage:** Detects complex conditions (e.g., "High Moisture + High Temp + Rising Gas") that simple `IF/ELSE` statements might miss.
-
+  
 ---
-
-##📂 Repository Structure```text
-/SSIP-AutoCompost
-├── /src
-│   ├── firmware_v1_data_collection.cpp  # Current running code (TRL 3-4)
-│   ├── firmware_v2_ai_inference.cpp     # Future code (TRL 6)
-│   └── model_data.h                     # (Placeholder) Trained model file
-├── /docs
-│   ├── circuit_schematic.png
-│   └── pinout_diagram.pdf
-├── /data
-│   └── training_logs_sample.csv         # Sample data for testing
-└── README.md
-
-```
 
 ##⚠️ Setup & Calibration Notes1. **MQ-135 Burn-in:** The gas sensor requires 24-48 hours of pre-heating to give stable readings.
 2. **Moisture Calibration:**
