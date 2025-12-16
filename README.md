@@ -1,8 +1,5 @@
 # AUTO-COMPOST
 this is my project called AUTCOMPOST - smart composting bin , i was awarded with grant from SSIP cell of our uni
-Here is a professional `README.md` file for your GitHub repository. It documents your project, hardware, and the specific 3-phase development process we discussed.
-
-You can copy and paste the raw code below directly into your repository.
 
 ---
 
