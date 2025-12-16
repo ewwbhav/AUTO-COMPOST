@@ -5,29 +5,13 @@ this is my project called AUTCOMPOST - smart composting bin , i was awarded with
 
 #SSIP AutoCompost: Smart AI-Powered Composting Bin ♻️🤖**Current Status:** TRL 3 (Proof of Concept) - Electronics & Algorithms Validated.
 
-##📖 Project OverviewThe **SSIP AutoCompost** is a smart, automated solution for organic waste management. It automates the composting process using a microcontroller-driven system with motorized mixing and environmental monitoring. The system uses **TinyML (Machine Learning on the Edge)** to intelligently classify compost health and automate maintenance (aeration/cooling) with minimal human intervention.
+📖 Project OverviewThe **SSIP AutoCompost** is a smart, automated solution for organic waste management. It automates the composting process using a microcontroller-driven system with motorized mixing and environmental monitoring. The system uses **TinyML (Machine Learning on the Edge)** to intelligently classify compost health and automate maintenance (aeration/cooling) with minimal human intervention.
 
 ###Key Features* **Automated Operation:** Manages organic waste decomposition with minimal user effort.
 * **Smart Monitoring:** Real-time tracking of Compost Temperature, Soil Moisture, Ambient Humidity, and Air Quality (Gas/Odors).
 * **Dual-Mode Firmware:** Features a data-collection mode for training and an AI-inference mode for autonomous decision-making.
 * **Mechanical Control:** High-torque DC gear motor (via BTS7960) for mixing and high-speed fan for aeration.
 * **Energy Efficient:** Designed for low-power operation with support for battery/solar power.
-
----
-
-##🛠️ Hardware Components| Component | Function |
-
-| --- | --- |
-| **ESP32 DevKit V1** | Main Microcontroller (The Brain) |
-| **BTS7960** | High-Current H-Bridge Motor Driver (43A) |
-| **DC Gear Motor** | High-torque motor for mixing compost |
-| **DS18B20** | Waterproof Digital Temperature Sensor (Compost Core Temp) |
-| **DHT22** | Digital Sensor (Ambient Temp & Humidity) |
-| **Capacitive Soil Moisture** | Analog Sensor (Compost Moisture Content) |
-| **MQ-135** | Analog Gas Sensor (Air Quality / Ammonia / CO2) |
-| **LCD (16x2 I2C)** | Local Data Display |
-| **MOSFET (IRLZ44N)** | Switch for 12V Cooling Fan |
-| **Buck Converter** | 12V to 5V Step-down for ESP32 power |
 
 ---
 
